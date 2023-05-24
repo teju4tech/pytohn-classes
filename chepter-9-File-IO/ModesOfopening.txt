@@ -1,0 +1,8 @@
+Modes of Opeining a file
+r - Open for Reading
+w - open for Writing
+a - open for appending
+t - open for updating
+
+rb - read in bainary Modes
+rt - read in text mode
