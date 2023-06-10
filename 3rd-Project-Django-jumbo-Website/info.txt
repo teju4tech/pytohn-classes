@@ -1,0 +1,3 @@
+installation- pip install django
+check - python -m django --version
+Video - TimeLaps: 10:27:27

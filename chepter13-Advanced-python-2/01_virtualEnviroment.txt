@@ -1,0 +1,28 @@
+[virtual-Enviroment ]
+                     -An Enviroment which is same as the system
+                     interpretor but is isloted from the other 
+                     python enviroments on the system.
+
+when we works on django and other ai base nural networks 
+may be we develpoed our app in python 3.0 and in future
+we need to run our app in python 3.9.10, so we need virtual 
+Enviroment .
+
+Basically iska funda ye hota hai ki isme apn isolated 
+Module install kar sakte hai ...chup chaap apnm kaam 
+kar skte hai.
+
+for Installaton syntax : python -m venv env 
+for powershell syntax: .\env\Scripts\Activate.ps1
+another way syntax: pip install virtualenv
+
+cammands :
+
+1) [pip freeze]:  giving all the installed module info
+2) [pip freeze > requerments.txt]: its make a txt file
+                       and wrote all the module virsion
+                       for hack work.
+                            
+3)[pip install -r requerments.txt]:This cammands installed
+                                   all the module inside the
+                                   requerments.txt file.

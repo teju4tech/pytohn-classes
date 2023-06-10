@@ -8,13 +8,16 @@ class Employee:
  
     def printobj(self):
         print(f"The name is {self.Name}")
+        # Self is actuall object ti's info 
 
+Employee.Name = "ishpal"
 info = Employee()
 jankari = Employee()
 jankari.Name = 'Tejpal singh'#Instent attribute
-# print(info.Name)
+print(info.Name)
 # print(info.Branch)
 print(jankari.UIDno)
 print(jankari.Name)
-info.printobj()
+info.printobj() #Employee.printobj(info)
+Employee.printobj(info)
 
